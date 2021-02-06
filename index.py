@@ -484,9 +484,9 @@ def check_in(username, password, device_id):
         #         j['value'] = '身体健康，无异常'
         
         # 修改地址，依照自己完美校园，查一下地址即可
-        # post_dict['areaStr'] = '{"streetNumber":"89号","street":"建设东路","district":"","city":"新乡市","province":"河南省",' \
-        #                        '"town":"","pois":"河南师范大学(东区)","lng":113.91572178314209,' \
-        #                        '"lat":35.327695868943984,"address":"牧野区建设东路89号河南师范大学(东区)","text":"河南省-新乡市",' \
+        # post_dict['areaStr'] = '{"streetNumber":"2929号","street":"月华街","district":"","city":"昆明市","province":"云南省",' \
+        #                        '"town":"","pois":"云南民族大学","lng":102.852529,' \
+        #                        '"lat":24.837683,"address":"云南省昆明市呈贡区月华街2929号","text":"云南省-昆明市",' \
         #                        '"code":""} '
         healthy_check_dict = healthy_check_in(token, username, post_dict)
         check_dict_list.append(healthy_check_dict)
